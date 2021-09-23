@@ -3,6 +3,8 @@ from flask import Flask, request  # This imports library -> flask and request
 
 app = Flask(__name__) # It creates an instance of flask
 
+def divide_func(a, b):
+    return a/b
 
 def mult(a, b):
     return a ** b
